@@ -7,11 +7,13 @@ dependencies:
   - compilers
   - make
   - scons
+  - git-lfs
   # link
   - apr
   - boost
   - bottleneck
   - cfitsio
+  - deprecated
   - doxygen
   - esutil
   - fftw
@@ -54,5 +56,4 @@ dependencies:
   - sqlalchemy
   - ws4py
   - pip:
-    - deprecated
     - git+https://github.com/BuhtigithuB/pytest_session2file@8a97d3a
